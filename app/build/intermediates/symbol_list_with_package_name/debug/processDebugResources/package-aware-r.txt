@@ -3130,6 +3130,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_button
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3183,6 +3184,9 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id contact_name
+id contact_phone
+id contacts_collector_button
 id container
 id content
 id contentPanel
@@ -3233,6 +3237,7 @@ id east
 id edge
 id edit_query
 id elastic
+id email_text
 id embed
 id end
 id endToStart
@@ -3359,6 +3364,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name_text
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3417,6 +3423,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView_contacts
 id report_drawn
 id reverseSawtooth
 id right
@@ -3670,6 +3677,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about_me
+layout activity_contacts
 layout activity_main
 layout activity_quick_calc
 layout custom_dialog
@@ -3688,6 +3697,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_contact
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

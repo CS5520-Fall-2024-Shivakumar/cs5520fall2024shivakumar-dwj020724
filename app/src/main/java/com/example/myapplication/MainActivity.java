@@ -30,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
         about_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Weijie Du, du.weij@northeastern.edu", Toast.LENGTH_LONG).show();
+                // Start AboutMeActivity instead of showing a Toast
+                Intent intent = new Intent(MainActivity.this, about_me.class);
+                startActivity(intent);
             }
         });
 
@@ -40,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, quick_calc.class);
+                startActivity(intent);
+            }
+        });
+
+        Button contactsCollectorButton = findViewById(R.id.contacts_collector_button);
+        contactsCollectorButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ContactsActivity.class);
                 startActivity(intent);
             }
         });

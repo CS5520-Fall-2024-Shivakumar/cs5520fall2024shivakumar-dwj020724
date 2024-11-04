@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ContactsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".about_me"
+            android:exported="false" />
+        <activity
             android:name=".quick_calc"
             android:exported="true" />
         <activity
@@ -24,7 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

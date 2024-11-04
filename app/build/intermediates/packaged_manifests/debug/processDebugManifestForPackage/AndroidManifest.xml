@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name="com.example.myapplication.ContactsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.about_me"
+            android:exported="false" />
+        <activity
             android:name="com.example.myapplication.quick_calc"
             android:exported="true" />
         <activity
