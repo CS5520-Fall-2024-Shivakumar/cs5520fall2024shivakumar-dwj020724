@@ -3,6 +3,7 @@ local
 color black
 color ic_launcher_background
 color white
+drawable baseline_add_call_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id about_button
@@ -28,6 +29,7 @@ id contact_phone
 id contacts_collector_button
 id display_text
 id email_text
+id fab_add_contact
 id main
 id name_text
 id recyclerView_contacts
