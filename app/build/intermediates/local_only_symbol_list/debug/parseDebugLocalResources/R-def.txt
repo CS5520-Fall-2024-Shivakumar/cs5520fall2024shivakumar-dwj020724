@@ -4,8 +4,11 @@ color black
 color ic_launcher_background
 color white
 drawable baseline_add_call_24
+drawable contact_item_background
+drawable delete
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable people
 id about_button
 id back_button
 id button0
@@ -18,6 +21,8 @@ id button6
 id button7
 id button8
 id button9
+id button_delete
+id button_edit
 id button_equal
 id button_plus
 id button_sub
@@ -38,7 +43,7 @@ layout activity_about_me
 layout activity_contacts
 layout activity_main
 layout activity_quick_calc
-layout item_contact
+layout contact_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

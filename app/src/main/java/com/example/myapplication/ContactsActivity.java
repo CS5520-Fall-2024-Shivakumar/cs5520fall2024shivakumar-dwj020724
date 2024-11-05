@@ -34,7 +34,7 @@ public class ContactsActivity extends AppCompatActivity {
 
         // Initialize with an empty list
         contactList = new ArrayList<>();
-        contactAdapter = new ContactAdapter(contactList);
+        contactAdapter = new ContactAdapter(this, contactList);
         recyclerView.setAdapter(contactAdapter);
 
         FloatingActionButton fab = findViewById(R.id.fab_add_contact);
@@ -64,8 +64,8 @@ public class ContactsActivity extends AppCompatActivity {
                 builder.setPositiveButton("Add", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        String name = inputName.getText().toString();
-                        String phone = inputPhone.getText().toString();
+                        String name = inputName.getText().toString().trim();
+                        String phone = inputPhone.getText().toString().trim();
 
                         if (!name.isEmpty() && !phone.isEmpty()) {
                             // Add the new contact
@@ -73,17 +73,18 @@ public class ContactsActivity extends AppCompatActivity {
                             contactList.add(newContact);
                             contactAdapter.notifyItemInserted(contactList.size() - 1);
 
-                            // Show success message
+                            // Show snack bar with "Undo" action
                             Snackbar.make(view, "Contact added", Snackbar.LENGTH_SHORT)
-                                    .setAction("Undo", new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View v) {
-                                            // Remove the last added contact
-                                            contactList.remove(contactList.size() - 1);
-                                            contactAdapter.notifyItemRemoved(contactList.size());
-                                        }
+                                    .setAction("Undo", v -> {
+                                        // Remove the last added contact
+                                        contactList.remove(contactList.size() - 1);
+                                        contactAdapter.notifyItemRemoved(contactList.size());
                                     })
                                     .show();
+
+                            // Clear input fields for next entry
+                            inputName.setText("");
+                            inputPhone.setText("");
                         } else {
                             Toast.makeText(ContactsActivity.this, "Please enter both name and phone number", Toast.LENGTH_SHORT).show();
                         }

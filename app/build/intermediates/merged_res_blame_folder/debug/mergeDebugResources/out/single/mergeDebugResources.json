@@ -16,6 +16,10 @@
         "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/layout/activity_quick_calc.xml"
     },
     {
+        "merged": "com.example.myapplication.app-debug-31:/drawable_contact_item_background.xml.flat",
+        "source": "com.example.myapplication.app-main-33:/drawable/contact_item_background.xml"
+    },
+    {
         "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/layout_activity_about_me.xml.flat",
         "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/layout/activity_about_me.xml"
     },
@@ -52,8 +56,12 @@
         "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-31:/drawable_baseline_add_call_24.xml.flat",
-        "source": "com.example.myapplication.app-main-33:/drawable/baseline_add_call_24.xml"
+        "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/layout_contact_item.xml.flat",
+        "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/layout/contact_item.xml"
+    },
+    {
+        "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/drawable_delete.xml.flat",
+        "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/drawable/delete.xml"
     },
     {
         "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -80,6 +88,10 @@
         "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/drawable_baseline_add_call_24.xml.flat",
+        "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/drawable/baseline_add_call_24.xml"
+    },
+    {
         "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/layout_activity_main.xml.flat",
         "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/layout/activity_main.xml"
     },
@@ -100,15 +112,19 @@
         "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "com.example.myapplication.app-debug-31:/layout_contact_item.xml.flat",
+        "source": "com.example.myapplication.app-main-33:/layout/contact_item.xml"
+    },
+    {
         "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
         "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-31:/layout_activity_contacts.xml.flat",
-        "source": "com.example.myapplication.app-main-33:/layout/activity_contacts.xml"
-    },
-    {
         "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
         "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-debug-31:/drawable_people.xml.flat",
+        "source": "/Users/weijiedu/.gradle/daemon/8.7/com.example.myapplication.app-main-33:/drawable/people.xml"
     }
 ]
